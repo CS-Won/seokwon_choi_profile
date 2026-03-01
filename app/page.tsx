@@ -7,7 +7,7 @@ import {
   Phone,
 } from "lucide-react"
 import { CvNav } from "@/components/cv-nav"
-// import Image from "next/image"
+import Image from "next/image"
 
 export default function AcademicCV() {
   return (
@@ -21,13 +21,23 @@ export default function AcademicCV() {
             className="mb-12 grid grid-cols-1 items-center gap-8 scroll-mt-20 md:grid-cols-[3.2fr_4fr]"
           >
             <div className="aspect-square w-full overflow-hidden rounded-2xl border-2 border-border bg-muted">
+              <Image
+                src="/images/profile.png"   // public/images/profile.png 경로
+                alt="Seokwon Choi"
+                width={400}
+                height={400}
+                className="rounded-2xl object-cover"
+                unoptimized  // next export 시 필요
+              />
+
+            {/* <div className="aspect-square w-full overflow-hidden rounded-2xl border-2 border-border bg-muted">
               <img
                 src="/seokwon_choi_profile/public/images/profile.png"
                 alt="Seokwon Choi"
                 width={400}
                 height={400}
                 className="rounded-2xl object-cover"
-              />
+              /> */}
             </div>
             <div className="text-center md:text-left">
               <h1 className="text-5xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl text-balance">
