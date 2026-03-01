@@ -136,7 +136,7 @@ export default function AcademicCV() {
               <TimelineItem
                 title="EAP Exchange Student"
                 subtitle="UC Santa Barbara"
-                period="Winter 2026 — Present"
+                period="Fall 2025 — Present"
               />
             </div>
           </section>
