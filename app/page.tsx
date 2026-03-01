@@ -283,6 +283,8 @@ export default function AcademicCV() {
                   "Electricity and Magnetism I, II",
                   "Quantum Informatics",
                   "Quantum Computations",
+                  "Optical Lab",
+                  "Physics Lab A-1, B-1",
                   "Intro to Quantum Computing (Grad)",
                   "Adv. Quantum Machine Learning (Grad)",
                 ]}
@@ -291,9 +293,12 @@ export default function AcademicCV() {
                 title="ML / AI"
                 skills={[
                   "Machine Learning",
-                  "Advanced Calculus I, II",
+                  "Natural Lang. Processing and ChatGPT",
+                  "Intro to Financial Eng.",
+                  "Intro to Deep Learning and Application",
                   "Statistics",
                   "Linear Algebra",
+                  "Advanced Calculus I, II",
                 ]}
               />
               <SkillGroup
