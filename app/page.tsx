@@ -149,7 +149,7 @@ export default function AcademicCV() {
               />
             </ol>
 
-            <h3 className="mb-3 mt-8 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+            {/* <h3 className="mb-3 mt-8 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
               Poster
             </h3>
             <ol className="list-decimal space-y-5 pl-5 text-foreground marker:text-muted-foreground">
@@ -160,7 +160,7 @@ export default function AcademicCV() {
                 year="June 2025"
                 link="#"
               />
-            </ol>
+            </ol> */}
           </section>
 
           <hr className="mb-12 border-border" />
