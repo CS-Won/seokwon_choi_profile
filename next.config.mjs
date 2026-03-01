@@ -1,11 +1,20 @@
 /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   typescript: {
+//     ignoreBuildErrors: true,
+//   },
+//   images: {
+//     unoptimized: true,
+//   },
+// }
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: "export",   // ⭐ 중요
   images: {
-    unoptimized: true,
-  },
-}
+    unoptimized: true
+  }
+};
+
+export default nextConfig;
 
 export default nextConfig
