@@ -1,18 +1,8 @@
-/** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   typescript: {
-//     ignoreBuildErrors: true,
-//   },
-//   images: {
-//     unoptimized: true,
-//   },
-// }
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",   // ⭐ 중요
-  images: {
-    unoptimized: true
-  }
+  output: "export",
+  basePath: "/seokwon_choi_profile",
+  assetPrefix: "/seokwon_choi_profile/",
+  images: { unoptimized: true }
 };
 
 export default nextConfig;
