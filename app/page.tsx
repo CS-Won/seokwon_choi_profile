@@ -7,7 +7,7 @@ import {
   Phone,
 } from "lucide-react"
 import { CvNav } from "@/components/cv-nav"
-import Image from "next/image"
+// import Image from "next/image"
 
 export default function AcademicCV() {
   return (
@@ -22,7 +22,7 @@ export default function AcademicCV() {
           >
             <div className="aspect-square w-full overflow-hidden rounded-2xl border-2 border-border bg-muted">
               <img
-                src="/images/profile.png"
+                src="/public/images/profile.png"
                 alt="Seokwon Choi"
                 width={400}
                 height={400}
