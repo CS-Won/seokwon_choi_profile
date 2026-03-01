@@ -560,5 +560,3 @@ function CertificationCard({
     </div>
   )
 }
-
-이게 page.tsx 수정한건데, 여전히 안되는데
