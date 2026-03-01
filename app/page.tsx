@@ -21,7 +21,7 @@ export default function AcademicCV() {
           >
             <div className="aspect-square w-full overflow-hidden rounded-2xl border-2 border-border bg-muted">
               <img
-                src="/images/profile.png"
+                src="/public/images/profile.png"
                 alt="Seokwon Choi"
                 className="h-full w-full object-cover"
               />
